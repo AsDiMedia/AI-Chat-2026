@@ -13,11 +13,45 @@ Use local AI when privacy, control or cost matters — and use external provider
 🎬 **Getting Started Videos:** See the AI Chat 2026 YouTube channel and playlist.
 
 -----------------------------------------------------------------------------------------------
-## Complete Feature List
+## Documentation
 
-For a detailed overview of AI Chat 2026 capabilities:
+Use the following guides for detailed information about AI Chat 2026:
 
-➡️ [Complete Feature List](FEATURES.md)
+- [Complete Feature List](FEATURES.md)
+- [Installation Guide](INSTALLATION.md)
+- [Hardware Guide](HARDWARE.md)
+- [Model Guide](MODELS.md)
+- [Troubleshooting](TROUBLESHOOTING.md)
+- [Security Policy](SECURITY.md)
+- [Changelog](CHANGELOG.md)
+
+---
+
+## Quick Navigation
+
+- [About AI Chat 2026](#about-ai-chat-2026)
+- [Editions](#editions)
+- [Local AI](#local-ai)
+- [External AI Providers](#external-ai-providers)
+- [Central Local AI Server](#central-local-ai-server)
+- [Getting Started](#getting-started)
+- [Projects](#projects)
+- [Documents and Files](#documents-and-files)
+- [Web Search](#web-search)
+- [Developer Workflows](#developer-workflows)
+- [Model Selection](#model-selection)
+- [Hardware](#hardware)
+- [Privacy](#local-ai-and-privacy)
+- [Licensing and Registration](#licensing-and-registration)
+- [Updates](#updates)
+- [Platform Roadmap](#platform-roadmap)
+- [IDE Integration](#ide-integration)
+- [Troubleshooting](#troubleshooting)
+- [Security](#security)
+- [Bug Reports](#bug-reports)
+- [Support](#support)
+- [Downloads](#downloads)
+- [Source Code](#source-code)
 -----------------------------------------------------------------------------------------------
 
 ---
