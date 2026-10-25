@@ -12,6 +12,14 @@ Use local AI when privacy, control or cost matters — and use external provider
 ⬇️ **Download:** https://chatai2026.com/7download/  
 🎬 **Getting Started Videos:** See the AI Chat 2026 YouTube channel and playlist.
 
+-----------------------------------------------------------------------------------------------
+## Complete Feature List
+
+For a detailed overview of AI Chat 2026 capabilities:
+
+➡️ [Complete Feature List](FEATURES.md)
+-----------------------------------------------------------------------------------------------
+
 ---
 
 ## Editions
