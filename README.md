@@ -1,4 +1,7 @@
 # AI Chat 2026
+> **AI Chat 2026 is commercial proprietary software.**
+> This repository contains public documentation, release information and technical resources.
+> The application source code is not published here.
 
 **Your models. Your data. Your projects. No subscription.**
 
