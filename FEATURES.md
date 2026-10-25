@@ -1,1 +1,1370 @@
+# AI Chat 2026 – Complete Feature List
 
+This document provides an overview of the major features and capabilities of AI Chat 2026.
+
+Feature availability can depend on:
+
+- AI Chat 2026 edition
+- configured AI provider
+- selected model
+- local hardware
+- operating system
+- installed development tools
+- external provider capabilities
+
+For current product information, visit:
+
+https://chatai2026.com/
+
+---
+
+# Product Philosophy
+
+AI Chat 2026 is designed around a few core principles:
+
+- Local AI should be a real alternative to cloud AI.
+- Users should be able to choose their own models.
+- Local and external models should be usable from the same application.
+- Projects should provide persistent working context.
+- Developers should be able to work with complete projects and repositories.
+- Users should not be forced into one AI provider.
+- AI Chat 2026 standard editions are not based on a recurring software subscription.
+
+---
+
+# Editions
+
+AI Chat 2026 is available in different editions.
+
+## Light
+
+Free entry edition for basic AI Chat 2026 usage and local AI.
+
+## Pro
+
+Adds advanced project, document, file, web and productivity workflows.
+
+## Pro Plus
+
+Adds advanced developer, repository, code and model-routing capabilities.
+
+Some optional developer integrations can be licensed separately.
+
+---
+
+# AI Models
+
+## Local AI Models
+
+AI Chat 2026 supports local AI workflows.
+
+Local models can run on:
+
+- the user's computer,
+- a dedicated AI workstation,
+- or a central local AI server.
+
+Local AI can be useful when:
+
+- data should remain local,
+- source code should remain local,
+- internet access is unavailable,
+- external API limits should be avoided,
+- predictable operating costs are preferred.
+
+---
+
+## llama.cpp-Based Local Inference
+
+AI Chat 2026 is designed for local inference workflows based on llama.cpp-compatible models.
+
+This allows users to work with locally available models without requiring a permanent connection to a commercial AI provider.
+
+---
+
+# External AI Providers
+
+Depending on configuration and edition, AI Chat 2026 can work with external providers.
+
+Supported provider concepts include:
+
+- OpenAI
+- Anthropic Claude
+- Google Gemini
+- DeepSeek
+- OpenAI-compatible endpoints
+- locally hosted compatible AI services
+
+Users can select the provider appropriate for their task.
+
+---
+
+# Local and External AI in One Application
+
+AI Chat 2026 is not limited to either local AI or cloud AI.
+
+Both approaches can be used within the same application.
+
+Example:
+
+```text
+Private Document
+      ↓
+Local AI Model
+
+Complex External Research
+      ↓
+External AI Provider
+```
+
+The user decides which model and provider is appropriate.
+
+---
+
+# Model Selection
+
+AI Chat 2026 supports model selection for different tasks.
+
+Depending on edition, this can include:
+
+- manual model selection,
+- provider selection,
+- model selection per workflow,
+- persistent provider configuration,
+- persistent last-used model,
+- automatic model routing.
+
+---
+
+# Automatic Model Routing
+
+Available in supported Pro Plus workflows.
+
+Automatic routing can select an appropriate model based on the requested task.
+
+Possible routing considerations can include:
+
+- coding task,
+- reasoning task,
+- general chat,
+- available local models,
+- configured remote providers.
+
+The objective is not to always use the largest model, but to select an appropriate model for the task.
+
+---
+
+# Streaming Responses
+
+AI Chat 2026 supports token streaming.
+
+Instead of waiting for the complete answer, generated content can be displayed while the model is still producing it.
+
+Benefits include:
+
+- faster perceived response time,
+- immediate feedback,
+- ability to monitor generation progress.
+
+---
+
+# Cancel Generation
+
+Long-running model generation can be cancelled.
+
+This is particularly useful for:
+
+- very large local models,
+- incorrect prompts,
+- unexpectedly long answers,
+- agent workflows.
+
+---
+
+# Generation Status
+
+AI Chat 2026 provides visual feedback while AI processing is taking place.
+
+This can include:
+
+- generation status,
+- working indicator,
+- reasoning / processing state where supported.
+
+---
+
+# Chat
+
+AI Chat 2026 provides a structured chat environment.
+
+Features include:
+
+- multiple chats,
+- structured conversation history,
+- token streaming,
+- Markdown rendering,
+- formatted code blocks,
+- code copy functionality,
+- automatic scrolling,
+- generation cancellation.
+
+---
+
+# Multiple Chats
+
+Users can maintain multiple independent chats.
+
+This makes it possible to separate topics such as:
+
+- coding,
+- architecture,
+- research,
+- documents,
+- project tasks.
+
+---
+
+# Chat History
+
+Conversations are maintained as structured chat histories rather than temporary one-shot prompts.
+
+This provides continuity within ongoing work.
+
+---
+
+# Markdown Rendering
+
+Model responses can be displayed using Markdown formatting.
+
+Supported presentation can include:
+
+- headings,
+- lists,
+- emphasis,
+- links,
+- code blocks,
+- structured text.
+
+---
+
+# Code Blocks
+
+Source code generated by AI models can be displayed in dedicated code areas.
+
+This improves readability for:
+
+- C#
+- Java
+- JavaScript
+- Python
+- HTML
+- CSS
+- JSON
+- YAML
+- shell commands
+- other programming and configuration languages.
+
+---
+
+# Copy Code
+
+Code blocks can be copied directly from the AI Chat 2026 interface.
+
+This avoids manually selecting large sections of generated source code.
+
+---
+
+# Automatic Scrolling
+
+During streamed AI responses, the chat interface can automatically follow newly generated content.
+
+---
+
+# Projects
+
+AI Chat 2026 supports project-oriented workflows.
+
+Projects provide a way to separate:
+
+- chats,
+- files,
+- documents,
+- code,
+- repository context,
+- project-specific information.
+
+---
+
+# Multiple Projects
+
+Users can maintain multiple independent projects.
+
+Example:
+
+```text
+Project A
+ ├── Chats
+ ├── Documents
+ └── Files
+
+Project B
+ ├── Chats
+ ├── Repository
+ └── Source Code
+```
+
+This helps prevent unrelated work from being mixed together.
+
+---
+
+# Multiple Chats per Project
+
+A project can contain multiple conversations.
+
+For example:
+
+```text
+Project: Application X
+
+├── Architecture
+├── API Development
+├── Database
+├── Bug Fixes
+└── Documentation
+```
+
+---
+
+# Project Search
+
+AI Chat 2026 provides search functionality for navigating stored projects and conversations.
+
+---
+
+# Project Context
+
+Project-related information can be used as context for AI workflows.
+
+This allows models to work with more than the text contained in one individual prompt.
+
+---
+
+# Files
+
+AI Chat 2026 supports file-based AI workflows.
+
+Files can be included in analysis and project context depending on edition and file type.
+
+---
+
+# Document Analysis
+
+AI Chat 2026 can analyse documents and use extracted content as model context.
+
+Use cases include:
+
+- summaries,
+- technical analysis,
+- document questions,
+- comparison,
+- information extraction.
+
+---
+
+# PDF Analysis
+
+PDF documents can be included in AI workflows.
+
+Possible workflows include:
+
+- summarisation,
+- content analysis,
+- question answering,
+- technical document analysis,
+- extracting relevant information.
+
+---
+
+# OCR
+
+AI Chat 2026 includes local OCR workflows.
+
+OCR can be used when text exists primarily as an image rather than selectable document text.
+
+Examples include:
+
+- scanned documents,
+- screenshots,
+- scanned PDF pages.
+
+---
+
+# ZIP Import
+
+AI Chat 2026 can import ZIP archives for analysis.
+
+Typical scenarios include:
+
+- source-code projects,
+- document collections,
+- configuration files,
+- project exports.
+
+---
+
+# ZIP Analysis
+
+Archive contents can be inspected and included in AI analysis.
+
+This enables workflows involving complete sets of related files rather than individual manual uploads.
+
+---
+
+# ZIP Export
+
+AI Chat 2026 supports project-related ZIP export workflows where available.
+
+This allows generated or modified project data to be packaged for further use.
+
+---
+
+# Web Search
+
+AI Chat 2026 includes integrated web search workflows.
+
+The objective is to allow AI models to work with current information rather than relying only on their training data.
+
+---
+
+# Current Information
+
+Web search can be used when questions require information that may have changed after model training.
+
+Examples:
+
+- current software versions,
+- documentation,
+- product information,
+- technical developments,
+- online resources.
+
+---
+
+# Direct Web Page Analysis
+
+AI Chat 2026 can analyse directly supplied webpages where supported.
+
+This makes it possible to use a specific page as evidence rather than relying only on search-result snippets.
+
+---
+
+# Evidence-Oriented Web Research
+
+AI Chat 2026 web workflows are designed to favour source-backed answers.
+
+The system can use retrieved web information as evidence for generated responses.
+
+Users should still verify important conclusions using the original sources.
+
+---
+
+# Search Snippets
+
+Search-result snippets can be used as part of the web-research pipeline where direct page access is not available or additional discovery is required.
+
+---
+
+# Source Awareness
+
+Web-research workflows can provide source information so users can inspect where relevant information originated.
+
+---
+
+# Image Generation
+
+AI Chat 2026 supports image-generation workflows where a compatible image provider or model is configured.
+
+Possible use cases include:
+
+- concept images,
+- diagrams,
+- visual ideas,
+- presentation assets,
+- illustrations.
+
+Capabilities depend on the configured image provider.
+
+---
+
+# Developer Features
+
+AI Chat 2026 Pro Plus includes advanced features for software-development workflows.
+
+These features are designed for working with complete projects rather than only isolated code snippets.
+
+---
+
+# Source-Code Analysis
+
+AI Chat 2026 can analyse source code.
+
+Possible tasks include:
+
+- explain code,
+- identify problems,
+- understand program structure,
+- locate relevant implementation areas,
+- analyse dependencies.
+
+---
+
+# Project Analysis
+
+AI Chat 2026 can analyse the structure of software projects.
+
+This can include:
+
+- project files,
+- source files,
+- directories,
+- configuration,
+- dependencies,
+- solution structure.
+
+---
+
+# Code Generation
+
+AI models can generate new source code within supported workflows.
+
+Examples:
+
+- classes,
+- APIs,
+- UI components,
+- configuration,
+- tests,
+- helper functions.
+
+---
+
+# Code Modification
+
+AI Chat 2026 Pro Plus can support modification of existing project code.
+
+This allows workflows where AI does not merely suggest code but works with existing project files.
+
+---
+
+# Multi-File Changes
+
+Development tasks can involve more than one project file.
+
+This is important for changes requiring:
+
+- domain classes,
+- services,
+- APIs,
+- UI,
+- configuration,
+- dependency injection,
+- database integration.
+
+---
+
+# Project File Creation
+
+AI workflows can create new files as required by a development task.
+
+---
+
+# Build Workflows
+
+AI Chat 2026 can participate in project build workflows where the required local development environment exists.
+
+Example:
+
+```text
+Analyse Project
+      ↓
+Modify Code
+      ↓
+Build
+      ↓
+Read Build Result
+      ↓
+Correct Problems
+```
+
+---
+
+# Build Validation
+
+Generated code can be validated using available local build tools.
+
+The required SDK, compiler or build environment must be installed locally.
+
+---
+
+# Build Error Analysis
+
+When a build fails, AI Chat 2026 can use build errors as part of the next analysis step.
+
+This supports iterative development workflows.
+
+---
+
+# Development Environment Dependency
+
+AI Chat 2026 does not replace locally required SDKs and compilers.
+
+For example:
+
+```text
+.NET Project
+     ↓
+Requires installed .NET SDK
+```
+
+If a required SDK is not installed, the project cannot be built even if the generated code itself is valid.
+
+---
+
+# Agent Workflows
+
+AI Chat 2026 can execute multi-step development workflows using agent-style processing.
+
+A simplified workflow can look like:
+
+```text
+User Task
+   ↓
+Project Analysis
+   ↓
+Planning
+   ↓
+File Selection
+   ↓
+Model Processing
+   ↓
+Code Change
+   ↓
+Validation
+```
+
+The complexity and duration of an agent workflow depend heavily on the selected model and local hardware.
+
+---
+
+# Fast Local Coding Workflows
+
+Smaller specialised coding models can be useful for tasks such as:
+
+- creating small projects,
+- modifying individual files,
+- generating classes,
+- correcting simple build problems.
+
+A larger model is not always faster or more useful.
+
+---
+
+# Repository Integration
+
+AI Chat 2026 Pro Plus supports repository-oriented workflows.
+
+---
+
+# GitHub
+
+AI Chat 2026 can work with GitHub repositories in supported Pro Plus workflows.
+
+Possible use cases include:
+
+- repository analysis,
+- code analysis,
+- project context,
+- development tasks.
+
+---
+
+# GitLab
+
+GitLab repositories can also be used in supported repository workflows.
+
+---
+
+# Bitbucket
+
+Bitbucket repositories can be integrated into supported Pro Plus workflows.
+
+---
+
+# Local Repositories
+
+AI Chat 2026 can also work with locally available project and repository files.
+
+This allows development workflows without requiring source code to be stored in a public cloud repository.
+
+---
+
+# Repository Analysis
+
+Repository analysis can include:
+
+- directory structure,
+- project files,
+- source code,
+- configuration files,
+- dependencies,
+- relevant implementation areas.
+
+---
+
+# Repository-Based Coding
+
+Instead of copying isolated snippets into a chat, repository workflows allow AI to work with a broader project context.
+
+This can improve tasks such as:
+
+- feature implementation,
+- bug fixing,
+- refactoring,
+- project understanding.
+
+---
+
+# Repository Privacy
+
+Local repository workflows can be combined with local AI models.
+
+This makes it possible to analyse source code without necessarily transmitting project content to an external AI provider.
+
+External providers should only be used when appropriate for the project and data involved.
+
+---
+
+# Model-Aware Developer Workflows
+
+Different development tasks may use different model types.
+
+Examples:
+
+```text
+Simple File Change
+      ↓
+Fast Coder Model
+
+Architecture Analysis
+      ↓
+Reasoning Model
+
+Large Repository
+      ↓
+Model with larger context
+```
+
+---
+
+# Provider Persistence
+
+AI Chat 2026 remembers relevant provider configuration so users do not need to repeatedly select the same provider during normal use.
+
+---
+
+# Model Persistence
+
+The last-used model can be retained between sessions where supported.
+
+---
+
+# User Interface
+
+AI Chat 2026 uses a dedicated desktop interface rather than a browser-only interface.
+
+The UI is designed around:
+
+- conversations,
+- projects,
+- models,
+- developer workflows,
+- file analysis.
+
+---
+
+# Dark User Interface
+
+AI Chat 2026 uses a modern dark user interface.
+
+The visual design is optimised for prolonged technical and development workflows.
+
+---
+
+# Application Languages
+
+AI Chat 2026 supports multiple UI languages.
+
+Supported languages include:
+
+- German
+- English
+- French
+- Spanish
+- Italian
+
+The selected language can be retained between application sessions.
+
+---
+
+# Local-First Architecture
+
+AI Chat 2026 is designed to support workflows where data can remain within the user's own environment.
+
+This is particularly relevant for:
+
+- private documents,
+- source code,
+- internal projects,
+- sensitive technical information.
+
+Local processing depends on using local models and local services for the relevant workflow.
+
+---
+
+# Central AI Server
+
+AI Chat 2026 can be used in architectures where local AI inference runs on a dedicated system.
+
+Example:
+
+```text
+Client PC
+     │
+Client PC
+     │
+Developer Workstation
+     │
+     ▼
+Local Network
+     │
+     ▼
+Central AI Server
+     │
+     ▼
+Local AI Model
+```
+
+This enables multiple client systems to use larger centrally hosted models.
+
+---
+
+# Shared Local AI Resources
+
+Central AI infrastructure can reduce the requirement for expensive GPU hardware on every workstation.
+
+Potential benefits include:
+
+- shared GPU capacity,
+- centrally maintained models,
+- easier hardware upgrades,
+- controlled infrastructure.
+
+---
+
+# Air-Gapped and Restricted Environments
+
+Local model workflows can be useful in environments with limited or restricted external connectivity.
+
+Actual offline capability depends on:
+
+- installed models,
+- local dependencies,
+- selected workflow,
+- required external services.
+
+Web search and external AI providers naturally require network connectivity.
+
+---
+
+# Data Control
+
+The user controls which model or provider is used.
+
+This is important because the data path can differ significantly between:
+
+```text
+Local Model
+    ↓
+Local Processing
+```
+
+and:
+
+```text
+External Provider
+    ↓
+Internet
+    ↓
+Provider Infrastructure
+```
+
+Users should select providers based on their own privacy, compliance and project requirements.
+
+---
+
+# API Keys
+
+External providers can require their own API credentials.
+
+API keys remain subject to the respective provider's:
+
+- pricing,
+- limits,
+- terms,
+- privacy rules,
+- availability.
+
+AI Chat 2026 does not remove third-party provider limitations.
+
+---
+
+# No Local API Token Limits
+
+When running a local model, there is no external commercial API token quota for the local inference itself.
+
+Performance is instead determined primarily by local hardware.
+
+---
+
+# Hardware Flexibility
+
+AI Chat 2026 does not require one fixed hardware configuration.
+
+Depending on the model, users can work with:
+
+- CPU inference,
+- dedicated GPU inference,
+- workstation hardware,
+- central AI servers.
+
+---
+
+# Model Quantization
+
+Local models can be used in different quantization variants where supported.
+
+Examples include:
+
+- Q3
+- Q4
+- Q5
+- Q6
+- Q8
+
+Quantization affects:
+
+- memory consumption,
+- performance,
+- model quality.
+
+---
+
+# Model Hardware Matching
+
+AI Chat 2026 local workflows should use models appropriate for available hardware.
+
+Important factors include:
+
+- RAM,
+- VRAM,
+- CPU,
+- GPU,
+- model size,
+- quantization,
+- context size.
+
+See:
+
+`HARDWARE.md`
+
+---
+
+# Model Flexibility
+
+AI Chat 2026 is intentionally not permanently tied to one model family.
+
+The local AI ecosystem evolves quickly.
+
+New models can offer:
+
+- improved coding,
+- improved reasoning,
+- better performance,
+- lower hardware requirements.
+
+For that reason, AI Chat 2026 focuses on providing model choice.
+
+---
+
+# Search and Navigation
+
+Users can search within available chat/project structures to locate previous work more quickly.
+
+---
+
+# Configuration Persistence
+
+Relevant user configuration is persisted between sessions.
+
+This can include settings such as:
+
+- selected provider,
+- selected model,
+- application language.
+
+---
+
+# Secure Download
+
+Official AI Chat 2026 downloads are distributed through the official AI Chat 2026 infrastructure.
+
+Download:
+
+https://chatai2026.com/7download/
+
+Users should not obtain installers from unofficial third-party download websites.
+
+---
+
+# Registration
+
+AI Chat 2026 installations can be registered and activated according to edition.
+
+Registration determines the licensed product capabilities available to the installation.
+
+---
+
+# Light Edition Registration
+
+The free Light edition can also participate in the official registration workflow.
+
+This allows the installation to be recognised as an official AI Chat 2026 installation.
+
+---
+
+# Commercial Licensing
+
+Pro and Pro Plus are commercial editions.
+
+The standard licensing model is based on one-time purchase rather than a mandatory recurring software subscription.
+
+Current terms are available from the official website.
+
+---
+
+# Patches and Fixes
+
+Maintenance updates can include:
+
+- bug fixes,
+- security fixes,
+- compatibility fixes,
+- performance improvements.
+
+---
+
+# Major Versions
+
+Major product-version upgrades can be licensed separately.
+
+This allows maintenance of an existing version without requiring a recurring subscription.
+
+---
+
+# Security-Conscious Workflows
+
+AI Chat 2026 encourages users not to include secret credentials in public reports or external prompts unnecessarily.
+
+Examples of sensitive information include:
+
+- API keys,
+- passwords,
+- access tokens,
+- private repository tokens,
+- licence credentials.
+
+---
+
+# Project Backup
+
+For development workflows involving automated project modification, source control or backups are strongly recommended.
+
+Recommended workflow:
+
+```text
+Project
+   ↓
+Git Commit / Backup
+   ↓
+AI Change
+   ↓
+Review
+   ↓
+Build
+   ↓
+Accept or Revert
+```
+
+---
+
+# Git-Friendly Development
+
+AI-generated project changes work particularly well when standard source-control practices are used.
+
+This allows users to inspect exactly what changed.
+
+---
+
+# IDE Integration
+
+IDE integration is part of the wider AI Chat 2026 developer strategy.
+
+Planned or separately available integrations can include:
+
+- Visual Studio
+- Visual Studio Code
+- Eclipse
+
+These integrations can have their own product and licence lifecycle.
+
+---
+
+# Visual Studio Integration
+
+The Visual Studio integration is intended to connect developer workflows more directly with AI Chat 2026.
+
+---
+
+# Visual Studio Code Integration
+
+Visual Studio Code integration is intended for developers using VS Code-based workflows.
+
+---
+
+# Eclipse Integration
+
+Eclipse integration is intended for supported Java and other Eclipse-based development workflows.
+
+---
+
+# Platform Strategy
+
+AI Chat 2026 currently focuses on the desktop application.
+
+Additional platform work is planned.
+
+Target platforms include:
+
+- Windows
+- macOS
+- Linux
+
+Platform support can differ by product version.
+
+---
+
+# Windows
+
+Windows is the current primary desktop platform.
+
+---
+
+# macOS
+
+A macOS version is part of the planned product direction.
+
+---
+
+# Linux
+
+Linux desktop support is planned after the initial cross-platform expansion.
+
+---
+
+# Future Model Improvements
+
+Future releases can improve:
+
+- model discovery,
+- model recommendations,
+- hardware compatibility checks,
+- model routing,
+- model performance information.
+
+---
+
+# Development Environment Detection
+
+Future development improvements can include better detection of locally installed development environments.
+
+Examples:
+
+```bash
+dotnet --list-sdks
+```
+
+This can help coding agents choose target frameworks compatible with the user's actual environment.
+
+---
+
+# Hardware Detection
+
+Hardware-aware model recommendations can help users identify models appropriate for:
+
+- available RAM,
+- VRAM,
+- GPU,
+- CPU.
+
+---
+
+# Agent Optimisation
+
+Agent workflows can continue to be optimised for:
+
+- smaller tasks,
+- faster local models,
+- reduced unnecessary project analysis,
+- improved timeout handling.
+
+---
+
+# Feature Availability
+
+Not every feature is available in every edition.
+
+As a general product concept:
+
+### Light
+
+Focused on basic AI Chat 2026 and local AI usage.
+
+### Pro
+
+Adds advanced:
+
+- projects,
+- files,
+- documents,
+- OCR,
+- ZIP analysis,
+- web workflows,
+- productivity features.
+
+### Pro Plus
+
+Adds advanced:
+
+- repository workflows,
+- source-code analysis,
+- code modification,
+- developer agents,
+- model routing,
+- developer integrations.
+
+For the current edition comparison, visit:
+
+https://chatai2026.com/
+
+---
+
+# Official Resources
+
+## Website
+
+https://chatai2026.com/
+
+## User Guide
+
+https://chatai2026.com/anleitung/
+
+## Download
+
+https://chatai2026.com/7download/
+
+## Shop
+
+https://chatai2026.com/shop/
+
+## Support
+
+support@chatai2026.com
+
+## Hardware Guide
+
+`HARDWARE.md`
+
+## Model Guide
+
+`MODELS.md`
+
+## Troubleshooting
+
+`TROUBLESHOOTING.md`
+
+---
+
+# Getting Started Videos
+
+## Download AI Chat 2026
+
+https://youtu.be/WkMp5SwsakE
+
+## Install the Light Version
+
+https://youtu.be/zgjHbgEc6Vc
+
+## Register Your Copy
+
+https://youtu.be/Bd-3DEd0dEM
+
+## Install and Use a Local AI Model
+
+https://youtu.be/KUkWLz-Vb4E
+
+The videos are currently available in English.
+
+---
+
+# Important Notice
+
+AI capabilities depend heavily on the selected model.
+
+AI-generated content can contain errors.
+
+Always review important output, especially:
+
+- source code,
+- production configuration,
+- security-related changes,
+- architecture decisions,
+- legal information,
+- financial information.
+
+---
+
+# Repository Purpose
+
+The public AI Chat 2026 GitHub repository contains documentation and technical information.
+
+The AI Chat 2026 application itself is proprietary software.
+
+The application source code is not published in this repository.
+
+---
+
+# AI Chat 2026
+
+**Your models. Your data. Your projects. No subscription.**
+
+https://chatai2026.com/
