@@ -12,7 +12,7 @@ The goal is simple:
 Use local AI when privacy, control or cost matters — and use external providers when additional model capabilities are required.
 
 🌐 **Website:** https://chatai2026.com/  
-⬇️ **Download:** https://chatai2026.com/7download/  
+⬇️ **Download:** https://chatai2026.com/download/  
 🎬 **Getting Started Videos:** See the AI Chat 2026 YouTube channel and playlist.
 
 -----------------------------------------------------------------------------------------------
